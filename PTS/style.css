@@ -1,0 +1,122 @@
+ body h1,h2,h3,p,ul {
+            margin:0;
+            padding: 0;
+        }
+header {
+    background-color: rgb(25, 44, 77);
+    color:rgb(245, 245, 245);
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+nav {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap:20px;  
+}
+nav a{
+   text-decoration: underline;
+   color: white;
+}
+.card-Logo img{
+    height: 50px;
+}
+
+.Hero {
+    text-align: center;
+    background-image: url('bgweb.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: (192C4D);
+    text-justify: auto;
+}
+.Hero h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color:rgb(25, 44, 77);
+    text-align: center;
+}
+
+.Permasalahan{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap:20px;
+    padding:40px;
+    background-color: aliceblue;
+}
+.card-P{
+    background-color: rgb(130,205,208);
+    padding:30px;
+    border-radius: 9px;
+    box-shadow: 0 2px 5px rgba(0,0,0,1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+.card-S{
+    background-color: rgb(130,205,208);
+    padding: 30px;
+    border-radius: 9px;
+    box-shadow: 0 2px 5px rgba(0,0,0,1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Manfaat{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap:20px;
+    padding:40px;
+    background-color: aliceblue;
+}
+.card-Profile {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.Foto-saya {
+    width: 100%;
+}
+.Foto-saya img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.profile-content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card-K, .card-M, .card-T {
+    background-color:rgb(130,205,208);
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #2E3F51;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 40px;
+}
+
